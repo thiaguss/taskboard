@@ -2,9 +2,10 @@ package com.taskboard.dtos;
 
 import java.util.List;
 
-public record ProjectDTO(
+public record ProjectResponseDTO(
+        Long id,
         String name,
         String description,
-        List<UserDTO> participants
+        List<UserRequestDTO> participants
 ) {
 }

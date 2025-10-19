@@ -1,6 +1,7 @@
 package com.taskboard.dtos;
 
-public record UserDTO(
+public record UserResponseDTO(
+        Long id ,
         String name,
         String email
 ) {
